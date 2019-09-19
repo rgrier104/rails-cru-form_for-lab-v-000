@@ -2,8 +2,11 @@
   <label>Song Name:</label><br>
   <%= f.text_field :name %><br>
 
-  <label>Bio</label><br>
-  <%= f.text_area :bio %><br>
-
+  <label>Artist ID</label><br>
+  <%= f.integer :artist_id %><br>
+  
+  <label>Genre ID</label><br>
+  <%= f.integer :genre_id %><br>
+  
   <%= f.submit %>
 <% end %>
