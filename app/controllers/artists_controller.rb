@@ -7,6 +7,6 @@ class ArtistsController < ApplicationController
     @artist = Artist.new
     @artist.save
 
-    redirect_to artist_path(a@artist)
+    redirect_to artist_path(@artist)
   end
 end
